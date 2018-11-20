@@ -1,0 +1,19 @@
+RECONSTRUIR LOS MÓDULOS DE NODE
+
+...
+npm install
+...
+
+GENERAR EL dist/
+
+...
+tsc -w
+...
+
+EJECUTAR EL SERVIDOR
+
+...
+nodemon /dist
+o
+node /dist
+...
